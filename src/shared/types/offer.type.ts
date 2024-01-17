@@ -1,4 +1,4 @@
-import { City, Commodity, Comment, Housing, Location, User } from "./index.js";
+import { City, Comment, Commodity, Housing, Location, User } from './index.js';
 
 export type Offer = {
   title: string,
@@ -16,6 +16,6 @@ export type Offer = {
   price: number,
   goods: Commodity[],
   host: User,
-  comments: Comment[],
+  comments?: Comment[],
   location: Location,
 };
