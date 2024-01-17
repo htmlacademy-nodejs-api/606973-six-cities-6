@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
-* Студент: [Антон Родин](https://up.htmlacademy.ru/nodejs-api/6/user/606973).
-* Наставник: `Неизвестно`.
+- Студент: [Антон Родин](https://up.htmlacademy.ru/nodejs-api/6/user/606973).
+- Наставник: [Владислав Поклонский](https://htmlacademy.ru/profile/id2210683).
 
 ---
 
