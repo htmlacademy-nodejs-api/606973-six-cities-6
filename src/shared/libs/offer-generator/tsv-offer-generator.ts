@@ -4,7 +4,7 @@ import { WeekDay, RatingRange, BedroomsRange, AdultsRange, PriceRange, Coordinat
 import { MockServerData } from '../../types/mock-server-data.type.js';
 import { OfferGenerator } from './offer-generator.interface.js';
 
-export default class TSVOfferGenerator implements OfferGenerator {
+export class TSVOfferGenerator implements OfferGenerator {
   constructor(private readonly mockData: MockServerData) {}
 
   public generate(): string {

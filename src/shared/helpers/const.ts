@@ -27,3 +27,5 @@ export const enum WeekDay {
   First = 1,
   Last = 7
 }
+
+export const CHUNK_SIZE = 16384; // 16KB
